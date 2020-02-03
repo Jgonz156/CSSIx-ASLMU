@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(https://i2.wp.com/lmuthisweek.lmu.edu/wp-content/uploads/2019/06/HelicopterAerials1638.jpg?fit=3840%2C3840&ssl=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.login {
+  padding: 5px;
+  background-color: lightgrey;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  box-shadow: 1px 6px 16px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  border-radius: 40px;
+  height: 150px;
+}

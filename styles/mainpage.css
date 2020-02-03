@@ -1,0 +1,219 @@
+body{
+   /* background-image: linear-gradient(#AFB8AC,white); */
+   /* background-image: url(https://ocbj.media.clients.ellingtoncms.com/img/photos/2018/05/14/loyola_t670.png?b3f6a5d7692ccc373d56e40cf708e3fa67d9af9d); */
+   /* bacgkround-size: 100%, 100%; */
+   background-color: rgb(176,200,230);
+   background-repeat: no-repeat;
+   background-size: cover;
+  /* background-color: #AFB8AC; */
+  height: 142vh;
+  margin: 0px;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px black;
+}
+/* h1:hover{
+text-shadow: 2px 2px 4px black;
+} */
+menu{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 400px;
+  grid-gap: 6px;
+  padding: 0px;
+}
+menu div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+#maintext{
+  background-color: #333;
+  text-align:center;
+  color:white;
+  font-weight: bold;
+  /* transperancy: 0.4; */
+  /* background-color: white; */
+  padding: 10px;
+  height:150px;
+  margin:20px;
+  box-shadow: 2px 2px 4px black;
+}
+
+#map{
+  background-image:linear-gradient(#0076A3, #009BD6);
+  height: 150px;
+  margin:20px;
+  box-shadow: 2px 2px 4px black;
+}
+#map:hover{
+  background-image: linear-gradient(brown,brown);
+  text-shadow: 2px 2px 4px black;
+}
+#translator{
+  background-image: linear-gradient(#0076A3, #009BD6);
+  height: 150px;
+  margin:20px;
+  box-shadow: 2px 2px 4px black;
+}
+#translator:hover{
+  background-image: linear-gradient(brown,brown);
+  text-shadow: 2px 2px 4px black;
+}
+#random{
+  background-image: linear-gradient(#0ABBFF, #37C8FF);
+  height: 150px;
+  margin:20px;
+  box-shadow: 2px 2px 4px black;
+}
+#random:hover{
+  background-image: linear-gradient(brown,brown);
+  text-shadow: 2px 2px 4px black;
+}
+#getconnect{
+  background-image: linear-gradient(#009BD6,#0ABBFF);
+  height: 150px;
+  margin:20px;
+  box-shadow: 2px 2px 4px black;
+}
+#getconnect:hover{
+  background-image: linear-gradient(brown,brown);
+  text-shadow: 2px 2px 4px black;
+}
+#culture{
+  background-image: linear-gradient(#0ABBFF, #37C8FF);
+  height: 150px;
+  margin:20px;
+  box-shadow: 2px 2px 4px black;
+}
+#culture:hover{
+  background-image: linear-gradient(brown,brown);
+  text-shadow: 2px 2px 4px black;
+}
+#event{
+  background-image: linear-gradient(#0076A3, #009BD6);
+  height: 150px;
+  margin:20px;
+  box-shadow: 2px 2px 4px black;
+}
+#event:hover{
+  background-image: linear-gradient(brown,brown);
+  text-shadow: 2px 2px 4px black;
+}
+#myprofile{
+  background-image: linear-gradient(#0ABBFF, #37C8FF);
+  height: 150px;
+  margin:20px;
+  box-shadow: 2px 2px 4px black;
+}
+#myprofile:hover{
+  background-image: linear-gradient(brown,brown);
+  text-shadow: 2px 2px 4px black;
+}
+#chatroom{
+  background-image: linear-gradient(#009BD6,#0ABBFF);
+  height: 150px;
+  margin:20px;
+  box-shadow: 2px 2px 4px black;
+}
+#chatroom:hover{
+  background-image: linear-gradient(brown,brown);
+  text-shadow: 2px 2px 4px black;
+}
+#manual{
+  background-image: linear-gradient(#009BD6,#0ABBFF);
+  height: 150px;
+  margin:20px;
+  box-shadow: 2px 2px 4px black;
+}
+#manual:hover{
+  background-image: linear-gradient(brown,brown);
+  text-shadow: 2px 2px 4px black;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#logo{
+  text-align: center;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}

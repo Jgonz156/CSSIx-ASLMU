@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/styles/translatorpage.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>ASL</title>
+  </head>
+  <body>
+    <div id="englishhandler">
+      {% include "templates/navbar.html" %}
+    <h1>English to ASL Translator</h1>
+    <p>Please Type in English Here:</p>
+    <form method="post" action="/translator">
+      <input type="text" name="Query">
+      <input type="submit" value="Translate"/>
+    </form>
+      <img src="/styles/Giphy.png"/>
+  </div>
+    {% for word in result %}
+        <div class="asl">
+          {% if "http" in word %}
+            <img src="{{ word }}"/>
+          {% else %}
+            {{ word }}
+          {% endif %}
+        </div>
+    {% endfor %}
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ASL</title>
+
+  <link rel="stylesheet" href="/styles/translatorpage.css">
+</head>
+<body>
+  sureena
+</body>
+</html> -->
